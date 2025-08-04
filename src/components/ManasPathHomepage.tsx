@@ -1,12 +1,14 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Heart, Wind, BookOpen, Play, Flower2, CircleDot } from "lucide-react";
+import {useNavigate} from 'react-router-dom';
 import heroImage from "@/assets/hero-meditation.jpg";
 import mandalaBackground from "@/assets/mandala-background.jpg";
 import sanskritPattern from "@/assets/sanskrit-pattern.jpg";
 import quiz from "../pages/Quiz.tsx";
 
 const ManasPathHomepage = () => {
+  const navigate = useNavigate();
   return (
     <div className="min-h-screen bg-background">
       {/* Hero Section with Mandala Background */}
