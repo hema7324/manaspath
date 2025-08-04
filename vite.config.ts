@@ -14,7 +14,7 @@ export default defineConfig(({ mode }) => ({
     react(),
     mode === 'development' &&
     componentTagger(),
-    base:"manaspath"
+    base: '/'
   ].filter(Boolean),
   resolve: {
     alias: {
