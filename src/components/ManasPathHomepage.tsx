@@ -5,7 +5,7 @@ import {useNavigate} from 'react-router-dom';
 import heroImage from "@/assets/hero-meditation.jpg";
 import mandalaBackground from "@/assets/mandala-background.jpg";
 import sanskritPattern from "@/assets/sanskrit-pattern.jpg";
-import quiz from "../pages/Quiz.tsx";
+import Quiz from "../pages/Quiz.tsx";
 
 const ManasPathHomepage = () => {
   const navigate = useNavigate();
