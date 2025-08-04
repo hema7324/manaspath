@@ -4,6 +4,7 @@ import { Heart, Wind, BookOpen, Play, Flower2, CircleDot } from "lucide-react";
 import heroImage from "@/assets/hero-meditation.jpg";
 import mandalaBackground from "@/assets/mandala-background.jpg";
 import sanskritPattern from "@/assets/sanskrit-pattern.jpg";
+import quiz from "../pages/Quiz.tsx";
 
 const ManasPathHomepage = () => {
   return (
@@ -185,7 +186,7 @@ const ManasPathHomepage = () => {
               variant="turmeric" 
               size="lg" 
               className="text-lg px-8 py-3"
-              onClick={() => window.location.href = '/quiz'}
+              onClick={() => quiz}
             >
               Take the Quiz
             </Button>
