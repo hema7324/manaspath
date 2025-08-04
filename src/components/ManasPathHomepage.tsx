@@ -186,7 +186,7 @@ const ManasPathHomepage = () => {
               variant="turmeric" 
               size="lg" 
               className="text-lg px-8 py-3"
-              onClick={() => quiz}
+              onClick={() => navigate("/quiz")}
             >
               Take the Quiz
             </Button>
